@@ -59,6 +59,7 @@ h1 {
     align-items: center;
     gap: 15px;
     padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #image {
@@ -73,6 +74,7 @@ h1 {
 #projecth2 {
     margin: 0 0 5px 0;
     font-size: 18px;
+    
 
 }
 
@@ -135,4 +137,8 @@ h1 {
         transform: translateY(5px);
     }
 
+}
+
+#github a {
+    display: block;
 }
