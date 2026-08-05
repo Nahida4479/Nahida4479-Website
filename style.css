@@ -48,18 +48,44 @@ h1 {
 
 
 #text1 {
+    display: flex;
     background-color: rgb(244, 255, 223);
     margin: 50px 60px;
     width: 500px;
     height: 250px;
-    margin: 30px auto;
+    margin: 45px auto;
     border-radius: 50px;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
 }
 
 #image {
     width: 200px;
     border-radius: 50px;
+    margin: 25px 20px;
 }
 /* #imageandh1:hover {
     background-color: red;
 } */
+
+#projecth2 {
+    margin: 0 0 5px 0;
+    font-size: 18px;
+
+}
+
+#projectp {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+#FFvert {
+    width: 100px;
+    border-radius: 20px;
+    flex-shrink: 0;
+}
+
+#project-text {
+}
