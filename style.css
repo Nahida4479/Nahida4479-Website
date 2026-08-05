@@ -1,0 +1,31 @@
+
+body {
+    background-color: rgb(74, 185, 83);
+}
+
+h1 {
+    text-align: center;
+}
+
+
+#Image_profil {
+    width: 50px;
+    border-radius: 50%;
+    
+}
+
+#imageandh1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: rgb(155, 238, 1);
+    padding: 5px 5px;
+    border-radius: 50px;
+    width: fit-content;
+    margin:20px auto;
+}
+
+/* #imageandh1:hover {
+    background-color: red;
+} */
