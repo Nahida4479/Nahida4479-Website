@@ -30,6 +30,7 @@ h1 {
     width: fit-content;
     margin:20px auto;
     animation: floating 2s ease-in-out infinite;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 @keyframes floating {
@@ -53,7 +54,7 @@ h1 {
     margin: 50px 60px;
     width: 500px;
     height: 250px;
-    margin: 45px auto;
+    margin: 45px auto 0 auto;
     border-radius: 50px;
     align-items: center;
     gap: 15px;
@@ -82,10 +83,56 @@ h1 {
 }
 
 #FFvert {
-    width: 100px;
+    width: 200px;
     border-radius: 20px;
     flex-shrink: 0;
 }
 
-#project-text {
+#github {
+    display: flex;
+    background-color: white;
+    width: 500px;
+    height: 400px;
+    margin: 10px auto 0 auto;
+    border-radius: 50px;
+}
+
+#github_profile {
+    border-radius: 50px;
+    margin: auto 20px;
+    width: 1000px;
+    height: 360px;
+}
+
+#github_name {
+    background-color: white;
+    height: 90px;
+    width: 500px;
+    margin: 90px auto 0 auto;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+}
+
+#account {
+    text-align: center;
+    margin: auto auto;
+    animation: text 3s ease-in-out infinite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes text {
+
+    0% {
+        transform: translateY(5px);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+
+    100% {
+        transform: translateY(5px);
+    }
+
 }
