@@ -149,7 +149,7 @@ h1 {
     align-items: center;
     margin: 70px auto;
     width: 500px;
-    height: 300px;
+    min-height: 300px;
     background-color: white;
     border-radius: 50px;
     animation: about 3s ease-in-out infinite;
